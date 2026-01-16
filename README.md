@@ -28,16 +28,34 @@ The model is trained on paired low-quality and high-quality face images to learn
 
 ---
 
-## 📁 Project Structure
+## 🚀 Installation
 
-```text
-.
-├── data/               # Training and test datasets
-├── models/             # Model definitions and checkpoints
-├── inference/          # Inference scripts
-├── training/           # Training scripts
-├── utils/              # Helper functions
-├── configs/            # Configuration files
-├── requirements.txt    # Dependencies
-├── README.md           # Project documentation
-└── main.py             # Entry point
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/ai-face-image-enhancement.git
+cd ai-face-image-enhancement
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+
+## 🛠 Requirements
+
+- Python 3.8+
+- PyTorch or TensorFlow (depending on implementation)
+- OpenCV
+- NumPy
+- Pillow
+
+## 📌 Future Improvements
+
+- Real-time face enhancement
+- Video face restoration
+- Mobile and edge deployment
+- Face alignment and detection preprocessing
+- ONNX / TensorRT export support
