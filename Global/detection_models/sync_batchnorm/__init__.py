@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# File   : __init__.py
-
-
 from .batchnorm import set_sbn_eps_mode
 from .batchnorm import SynchronizedBatchNorm1d, SynchronizedBatchNorm2d, SynchronizedBatchNorm3d
 from .batchnorm import patch_sync_batchnorm, convert_model
