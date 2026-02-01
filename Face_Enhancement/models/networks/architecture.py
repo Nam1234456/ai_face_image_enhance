@@ -1,6 +1,3 @@
-# Copyright (c) Microsoft Corporation.
-# Licensed under the MIT License.
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -9,13 +6,6 @@ import torch.nn.utils.spectral_norm as spectral_norm
 from models.networks.normalization import SPADE
 
 
-# ResNet block that uses SPADE.
-# It differs from the ResNet block of pix2pixHD in that
-# it takes in the segmentation map as input, learns the skip connection if necessary,
-# and applies normalization first and then convolution.
-# This architecture seemed like a standard architecture for unconditional or
-# class-conditional GAN architecture using residual block.
-# The code was inspired from https://github.com/LMescheder/GAN_stability.
 class SPADEResnetBlock(nn.Module):
     def __init__(self, fin, fout, opt):
         super().__init__()
