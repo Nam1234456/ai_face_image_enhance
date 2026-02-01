@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# File   : batchnorm.py
-
 import collections
 import contextlib
 
