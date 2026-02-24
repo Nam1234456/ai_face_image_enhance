@@ -1,5 +1,3 @@
-# Bringing Old Photos Back to Life
-
 **Khôi phục ảnh cũ bằng Deep Learning**
 
 Repository này cung cấp mã nguồn, mô hình đã huấn luyện sẵn và công cụ demo cho bài toán **khôi phục ảnh cũ** (old photo restoration), bao gồm xử lý trầy xước, nhiễu, suy giảm chất lượng và tăng cường khuôn mặt.
